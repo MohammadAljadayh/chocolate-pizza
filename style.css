@@ -127,18 +127,39 @@ footer{
     clear: both;
 }
 
+hr{
+    display: block;
+    background-image: url(../img/hr-img.png);
+    border: 0px; 
+    height: 15px;
+    width: 70%;
+    margin-top: 2%;
+ }
 
+ footer img{
+    position: absolute;
+    /* clear: both; */
+ }
 /* Using stackoverflow */
 footer hr {     
-    background: url('/img/hr-img.png');
+    background: url('../img/hr-img.png') no-repeat;
     background-size: contain;
+    display: block;
+    border: 0;
+    width: 70%;
+    position: absolute;
+    bottom: 50pt;
+
+    }
+
+#logoLine{
     display: block;
     height: 10pt;
     border: 0;
     width: 50%;
-    position: relative; 
+    position: relative;
+    border-top: .02px solid rgb(194, 194, 194); 
     }
-
 
 footer p{
     text-align: center;
