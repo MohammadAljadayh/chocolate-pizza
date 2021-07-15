@@ -1,52 +1,82 @@
-*{
-    box-sizing: border-box;
-}
 
-/* header{
-    padding: 3%;
-    height: 230px;
-    box-sizing: border-box;
-    margin: auto;
+header {
+    width:960px;
+    margin:auto;
+    height:100px;
+    padding:20px 0;
+    box-sizing:border-box;
+  
 }
-#links{
-    position: absolute;
-    clear: both;
-    top: 3%;
-    right: 4%;
-    top: 6%;
-}
-
 #logo{
+    width:270px;
+    float:left;
+}
+#logo img {
     float: left;
-    clear: both;
-    width: 300px; */
-    /* display: block;
-    margin-left: ; */
-/* } */
-/* 
-#logo img{
+    margin-right: 5px;
+}
+#logo h1{
     float: left;
-    clear: both;
-    margin-right: 5%;
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
 }
 
-#logo span{
-
-    font-family: 'Dancing Script', cursive;
-    font-size: 40px;
+#logo h4{
+    float: left;
+    margin-left: 3px;
+    font-family: 'Strait', sans-serif;
+    font-size:10px;
+    color:rgb(112, 111, 111);
 }
 
-h4{
-margin-left: 20;
-font-size: small;
-color: gray;
-margin-top: 0%;
-/* width: 75%; */
-/* } */
+#Links{
+    float:right;
+    width: 206px;
+}
+div img{
+    float:right;
+}
+
+.left{
+    float:left;
+    margin-right:1px;
+}
+
+.right {
+    float:right;
+    margin-left:1px;
+}
+
+.middle {
+    float:left;
+}
+
+/* The Hash Line from Google Searching  */
+
+
+.hL{
+
+    float:left;
+    height:15px;
+    width:960px;
+    margin:auto;
+    margin-top:20px;
+    box-sizing:border-box;
+    
+    background: repeating-linear-gradient(
+    45deg,
+    rgba(70, 67, 67, 0.5),
+    rgba(70, 68, 68, 0.5) 1px,
+	transparent 1px,
+	transparent 5px
+  );
+}
+
 
 #list{
     position: relative;
     text-align: center;
+
 }
 
 #form{
@@ -60,7 +90,7 @@ margin-top: 0%;
  #colOne{
   position: absolute;
   top: 35px;
-  right: 60%;
+  right: 65%;
   text-align: justify;
   font-size: 17pt;
   font-family: 'Caveat', cursive;
@@ -72,13 +102,14 @@ margin-top: 0%;
 #colTwo{
  position: absolute;
   top: 35px;
-  right: 25%;
+  right: 5%;
   text-align: justify;
   font-size: 17pt;
   font-family: 'Caveat', cursive;
 
   font-family: 'Shadows Into Light', cursive;
   font-weight: 50pt;
+
 }
 
 #last{
@@ -107,7 +138,7 @@ margin-top: 0%;
     font-size:large;
     color: slategrey;
     position: absolute;
-    margin-left: 9%;
+    margin-left:120px;
     
 }
 
@@ -161,7 +192,98 @@ footer hr {
     border-top: .02px solid rgb(194, 194, 194); 
     }
 
+    footer img {
+
+        position: absolute;
+        top:1650px;
+        left: 650px;
+
+    }
 footer p{
     text-align: center;
     color: darkgrey;
+}
+
+
+main {
+    width: 960px;
+    margin:auto;
+    margin-top: 25px;
+    box-sizing:border-box;
+}
+
+#Titel2{
+    width:500px;
+
+}
+
+main #Titel2 h1{
+    float:left;
+    font:50px bold;
+    
+}
+
+main #Titel2 h4 {
+    float:left;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 15px;
+    color:rgb(112, 111, 111);
+    font-family: 'Teko', sans-serif;
+}
+
+#Pimg {
+   position: absolute;
+   top: 155px;
+   right: 250px;
+    clear: both;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 14px;
+    width:30px;
+    color: rgb(112, 111, 111);
+
+   
+}
+
+#Pimg img{ 
+    float:right;
+    margin-right:5px;
+    padding-bottom: 10px;
+    height: 15px;
+    
+}
+#pimg p {
+    position: absolute;
+
+}
+
+
+
+
+#hero img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both; 
+    padding-top: 50px;
+
+}
+#midText {
+    display: block;
+     clear: both;
+     margin-left: auto;
+     margin-right: auto;
+     text-align:justify;
+     margin-left: 1%;
+     font-size:larger;
+     padding: 2%;
+     color:dimgray;
+     width: 965px;
+}
+#firstLine{
+    margin-left: 3%;
+
+
+
+
+
 }
