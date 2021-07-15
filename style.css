@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+/* header{
+    padding: 3%;
+    height: 230px;
+    box-sizing: border-box;
+    margin: auto;
+}
+#links{
+    position: absolute;
+    clear: both;
+    top: 3%;
+    right: 4%;
+    top: 6%;
+}
+
+#logo{
+    float: left;
+    clear: both;
+    width: 300px; */
+    /* display: block;
+    margin-left: ; */
+/* } */
+/* 
+#logo img{
+    float: left;
+    clear: both;
+    margin-right: 5%;
+}
+
+#logo span{
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+h4{
+margin-left: 20;
+font-size: small;
+color: gray;
+margin-top: 0%;
+/* width: 75%; */
+/* } */
+
+#list{
+    position: relative;
+    text-align: center;
+}
+
+#form{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 20px;
+ }
+
+ #colOne{
+  position: absolute;
+  top: 35px;
+  right: 60%;
+  text-align: justify;
+  font-size: 17pt;
+  font-family: 'Caveat', cursive;
+
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 50pt;
+}
+
+#colTwo{
+ position: absolute;
+  top: 35px;
+  right: 25%;
+  text-align: justify;
+  font-size: 17pt;
+  font-family: 'Caveat', cursive;
+
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 50pt;
+}
+
+#last{
+    position: relative;
+    padding: 20px
+}
+
+#last img{
+    margin-left: 3%;
+    clear: both;
+    float: left;
+    padding-right: 15pt;  
+    display: block;
+    
+}
+
+#last span{
+
+    color: rgb(128, 136, 145);
+    position: absolute;
+    font-size:larger;
+    
+}
+
+#last p{
+    font-size:large;
+    color: slategrey;
+    position: absolute;
+    margin-left: 9%;
+    
+}
+
+button{
+    text-align: center;
+    padding: 15px 33px;
+    color:whitesmoke;
+    background-color: rgba(165, 67, 42, 0.87);
+    float: right;
+    clear: both; 
+    margin-right: 3%;   
+ }
+
+
+footer{
+    padding:80px;
+    clear: both;
+}
+
+
+/* Using stackoverflow */
+footer hr {     
+    background: url('/img/hr-img.png');
+    background-size: contain;
+    display: block;
+    height: 10pt;
+    border: 0;
+    width: 50%;
+    position: relative; 
+    }
+
+
+footer p{
+    text-align: center;
+    color: darkgrey;
+}
